@@ -7,7 +7,7 @@ for seq_record in SeqIO.parse('NC_000019.10.fasta', 'fasta'):
 
 
 def slicesequence(x):
-    #print(x)
+    # print(x)
     aux = x[0:3]
     final = x[3:]
     print('\n' + aux)
@@ -17,26 +17,13 @@ def slicesequence(x):
             final = final[3:]
             print(aux)
 
-    return 0
-    '''
-    print('1')
-    aux = x[0:3]
-    print(aux)
-    final = x[3:]
-    print(final)
-    print('2')
-    aux = final[:3]
-    print(aux)
-    final = final[3:]
-    print(final)
-    ...
-    '''
+    return ''
 
-'''
+
 #text = open('cp_teste.txt', 'r', encoding='UTF8')
 #text.close()
 '''
-'''
+
 coding_dna = Seq('ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG', IUPAC.unambiguous_dna)  # Sequência DNA
 print('Seq. Original: DNA =  {}' .format(coding_dna))
 messenger_rna = coding_dna.transcribe()  # Trenscrever DNA para RNAm
