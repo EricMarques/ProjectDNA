@@ -1,12 +1,26 @@
-fileName = str(input("Arquivo: "))
+from Bio.Seq import Seq
+from Bio.Alphabet import generic_dna
+from Bio.Data import CodonTable
 
-arq = open(fileName + '.txt', 'r')
-arqCopy = open('cp_' + arq + '.txt', 'w')
 
-arq.writelines(arqCopy)
+gene = Seq("GGAGTACAATGATTCAGAACCCTGGGTGAGTGGAAGCCCCGGCAGATCGACAACCCAGAT" +
+           "TACAAGGGCACTTGGATCCACCCAGAAATTGACAACCCCGAGTATTCTCCCGATCCCAGT" +
+           "ATCTATGCCTATGATAGACTTCCTGCCACCCAAGAAGATAAAGGATCCTGATGCTTCAAA" +
+           "ACCGGAAGACTGGGATGAGCGGGCCAAGATCGATGATCCCACAGACTCCAAGCCTGAGGA" +
+           "CTGGGACAAGCCCGAGCATATCCCTGACCCTGATGCTAAGAAGCCCGAGGACTGGGATGA" +
+           "AGAGATGGACGGAGAGTGGGAACCCCCAACTTTGGCGTGCTGGGCCTGGACCTCTGGCAG" +
+           "GTCAAGTCTGGCACCATCTTTGACAACTTCCTCATCACCAACGATGAGGCATACGCTGAG" +
+           "GAGTTTGGCAACGAGACGTGGGGCGTAACAAAGGCAGCAGAGAAACAAATGAAGGACAAA" +
+           "CAGGACGAGGAGCAGAGGCTTAAGGAGGAGGAAGAAGACAAGAAACGCAAAGAGGAGGAG" +
+           "GAGGCAGAGGACAAGGAGGATGAA", generic_dna)
 
-print(arq.read())
+print('DNA  = ' + gene)
+print('RNAm = ' + gene.transcribe())
 
-arqCopy.close()
-arq.close()
+g = gene.translate(table='Standard')
+print('Prot = ' + g)
 
+
+standard_table = CodonTable.unambiguous_dna_by_name["Standard"]
+print(standard_table)
+standard_table
