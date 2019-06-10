@@ -18,6 +18,8 @@ codonTable = {'UUU': 'Fenilalanina',  'UUC': 'Fenilalanina',  'UUA': 'Leucina', 
               'AGU': 'Serina',        'AGC': 'Serina',        'AGA': 'Arginina',      'AGG': 'Arginina',
               'GGU': 'Glicina',       'GGC': 'Glicina',       'GGA': 'Glicina',       'GGG': 'Glicina', }
 
-startCodon = {'AUG': 'Start Codon'}
+start_Codon_D = {'AUG': 'Start Codon'}
+start_Codon_L = ['AUG']
 
-stopCodon = {'UAA': 'Stop Codon', 'UAG': 'Stop Codon', 'UGA': 'Stop Codon'}
+stop_Codon_D = {'UAA': 'Stop Codon', 'UAG': 'Stop Codon', 'UGA': 'Stop Codon'}
+stop_Codon_L = ['UAA', 'UAG', 'UGA']

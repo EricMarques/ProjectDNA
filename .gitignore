@@ -1,3 +1,7 @@
 /.idea/*
 /Samples/*
 test.py
+alinhamento.py
+*.txt
+a.fasta
+b.fasta
