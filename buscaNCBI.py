@@ -1,38 +1,35 @@
+import os
 from Bio.Blast import NCBIWWW
+import Exceptions as e
 
 path = "Samples/"
+dirs = os.listdir(path)
 
 query = input("Digite o nome da Proteína a ser buscada: ")
 
-'''
 arq_file = path + query
+queryT = arq_file + ".xml"
 
-if os.path.isfile(arq_file):
+
+def buscaNcbi(query):
+    # Buscar proteínas = blastp
+    # Buscar nucleotídeos = blastn
     try:
-        print("Arquivo '" + query + "' encontrado!")
-        arq = open(path + query, "r")
-        if query not in arq_file:
-            raise NameError(path + query)
+        print("Buscando arquivo...")
+        blast_result = NCBIWWW.qblast("blastn", "nr", query)
+        blast_out = open(arq_file + ".xml", "w")
+        blast_out.write(blast_result.read())
+        blast_out.close()
+        blast_result.close()
+        print("Fim da busca.\nArquivo " + query + ".xml encontra-se disponível no diretório '" +
+              path + "' para análise")
 
-    except NameError:
-        print("OPA")
-        raise
+    except ValueError:
+        print("\nProteína inexistente ou inválida")
 
-    finally:
 
-        arq = open(path + query, "r")
-        print(arq.read())
+if os.path.exists(queryT):
+    print("Arquivo '" + query + ".xml' já existente no diretório '" + path.strip("/") + "'!")
 
-print(os.path.isfile(arq_file))
-print(arq_file)
-'''
-
-# Buscar proteínas = blastp
-# Buscar nucleotídeos = blastn
-print("Buscando...")
-blast_result = NCBIWWW.qblast("blastp", "nr", query)
-blast_out = open(path + query + ".xml", "w")
-blast_out.write(blast_result.read())
-blast_out.close()
-blast_result.close()
-print("Fim da busca.")
+else:
+    buscaNcbi(query)
