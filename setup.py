@@ -7,4 +7,4 @@ setup(name='ProjectDNA',
       author='Eric Marques',
       author_email='erc_m@hotmail.com',
       license='UFN',
-      zip_safe=False)
+      zip_safe=False, install_requires=['Bio'])
