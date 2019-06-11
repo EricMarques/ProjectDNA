@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f262082-8699-4390-a535-904e1f307847" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alinhamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/alinhamento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buscaNCBI.py" beforeDir="false" afterPath="$PROJECT_DIR$/buscaNCBI.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alinhamento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="450">
+              <caret line="42" column="3" lean-forward="true" selection-start-line="20" selection-end-line="42" selection-end-column="3" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -62,9 +59,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buscaNCBI.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -119,9 +120,9 @@
         <option value="$PROJECT_DIR$/Exceptions.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Samples/calr_blastp.xml" />
-        <option value="$PROJECT_DIR$/buscaNCBI.py" />
-        <option value="$PROJECT_DIR$/alinhamento.py" />
         <option value="$PROJECT_DIR$/align.py" />
+        <option value="$PROJECT_DIR$/alinhamento.py" />
+        <option value="$PROJECT_DIR$/buscaNCBI.py" />
       </list>
     </option>
   </component>
@@ -312,12 +313,12 @@
       <workItem from="1560173838481" duration="5365000" />
       <workItem from="1560190391665" duration="5178000" />
       <workItem from="1560196734233" duration="5118000" />
-      <workItem from="1560266036883" duration="1267000" />
+      <workItem from="1560266036883" duration="1469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44258000" />
+    <option name="totallyTimeSpent" value="44460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="748" extended-state="6" />
@@ -337,7 +338,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329582" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32852563" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32692307" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -470,9 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buscaNCBI.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/align.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -485,11 +483,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alinhamento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="450">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="20" selection-end-line="42" selection-end-column="3" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buscaNCBI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
