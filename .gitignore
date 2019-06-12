@@ -1,5 +1,6 @@
 /.idea/*
 /Samples/*
+/Alignments/*
 test.py
 *.txt
 a.fasta
