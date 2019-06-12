@@ -2,7 +2,6 @@
 /Samples/*
 /Alignments/*
 test.py
-*.txt
 a.fasta
 b.fasta
 Exceptions.py

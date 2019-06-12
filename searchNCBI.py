@@ -1,6 +1,6 @@
 import os
 from Bio.Blast import NCBIWWW
-import Exceptions as e
+import time
 
 path = "Samples/"
 dirs = os.listdir(path)
@@ -25,7 +25,8 @@ def buscaNcbi(query):
               path + "' para análise")
 
     except ValueError:
-        print("\nProteína inexistente ou inválida")
+        print("\nProteína inexistente ou inválida\n\n\n")
+        time.sleep(5)
 
 
 if os.path.exists(queryT):
@@ -33,3 +34,6 @@ if os.path.exists(queryT):
 
 else:
     buscaNcbi(query)
+
+import menu
+menu.choice
