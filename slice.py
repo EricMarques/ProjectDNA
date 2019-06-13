@@ -1,8 +1,19 @@
+import os
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 from Bio import SeqIO
 
-for seq_record in SeqIO.parse('NC_000019.10.fasta', 'fasta'):
+path = "Samples/"
+
+dirs = os.listdir(path)
+
+query = input("Arquivo com sequência para alinhamento: ")
+
+arq_file_q = path + query
+
+queryT = arq_file_q + ".fasta"
+
+for seq_record in SeqIO.parse(queryT, 'fasta'):
     seqDna = seq_record.seq
 
 
@@ -20,9 +31,9 @@ def slicesequence(x):
     return ''
 
 
-#text = open('cp_teste.txt', 'r', encoding='UTF8')
-#text.close()
 '''
+text = open('cp_teste.txt', 'r', encoding='UTF8')
+text.close()
 
 coding_dna = Seq('ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG', IUPAC.unambiguous_dna)  # Sequência DNA
 print('Seq. Original: DNA =  {}' .format(coding_dna))
