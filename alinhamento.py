@@ -1,7 +1,6 @@
 import os
 import xmltodict
 
-import Exceptions as e
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
@@ -45,9 +44,11 @@ print(arq_file)
 with open(path + "calr_blastp.xml") as fd:
     doc = xmltodict.parse(fd.read())
 
+amostra = doc["BlastOutput"]["BlastOutput_iterations"]["Iteration"]["Iteration_hits"]["Hit"][0]["Hit_hsps"]["Hsp"]["Hsp_qseq"]
+
 # print(doc["BlastOutput"]["BlastOutput_iterations"]["Iteration"]["Iteration_query-def"])
 # print(doc["BlastOutput"]["BlastOutput_iterations"]["Iteration"]["Iteration_hits"]["Hit"])
-print(doc["BlastOutput"]["BlastOutput_iterations"]["Iteration"]["Iteration_hits"]["Hit"][0]["Hit_num"])
+print(amostra)
 
 
 # calr_blastp.xml

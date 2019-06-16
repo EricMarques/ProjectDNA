@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 from Bio import SeqIO
 from Bio.Seq import Seq
@@ -15,12 +17,13 @@ arq_out = input("Nome arquivo saída: ")
 
 arq_file_q = path + query
 arq_file_s = path + subject
+arq_out_f = path + arq_out
 
 queryT = arq_file_q + ".fasta"
 subjectT = arq_file_s + ".fasta"
-arq_outT = arq_out + ".txt"
+arq_outT = arq_out_f + ".txt"
 
-comand = NcbiblastnCommandline(
+comand = NcbiblastpCommandline(
     query=queryT,
     subject=subjectT,
     outfmt=0,
@@ -46,7 +49,7 @@ for seq_record in SeqIO.parse(queryT, 'fasta'):
 gene = Seq(str(seqDna), IUPAC.unambiguous_dna)
 
 print(len(gene))
-print(len(gene.translate()))
+# print(len(gene.translate()))
 
 linhas = open(arq_outT).readlines()
 
@@ -55,3 +58,15 @@ for linha in linhas:
 
 import menu
 menu.choice
+
+
+'''
+    Forçar a mutação da sequencia
+    "gerar" novamente aminoácidos
+    Verificar as proteínas gerada ,se permaneceu a mesma
+    comparar com "original"
+    
+    
+    Identifica algumas proteinas pela sequencia de bases
+    nas diferencas, tenta identificar possiveis mutações que fariam a sequencia deixar de ser uma proteina e virar outra
+'''

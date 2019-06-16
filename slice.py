@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
@@ -49,5 +51,6 @@ print('DNA: {}\n'.format(seqDna))
 print('Caracteres DNA: {}'.format(len(seqDNA)))
 print('\nRNAm: {}\n' .format(messengerRNA))
 print('Caracteres RNAm: {}'.format(len(messengerRNA)))
+print(messengerRNA.translate())
 
-print(slicesequence(seqDNA))  # Chama a função slicesequence() passando como parâmetro a sequência RNAm
+# print(slicesequence(seqDNA))  # Chama a função slicesequence() passando como parâmetro a sequência RNAm

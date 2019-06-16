@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import time
 
 print("********Software para busca e alinhamento de sequências de Aminoácidos********\n")
