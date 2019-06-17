@@ -6,7 +6,7 @@ from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 from Bio.Blast.Applications import *
 
-path = "Alignments/"
+path = "Samples/"
 dirs = os.listdir(path)
 
 # BLAST = Biopython
@@ -34,6 +34,8 @@ stdout, stderr = comand()
 result = open(arq_outT, "r")
 
 print(result.read())
+
+result.close()
 
 # BLAST = linha de comando
 # MODELO # os.system("blastp -query a.fasta -subject b.fasta -outfmt 6 > resultado.txt")  # alinhamento de proteínas

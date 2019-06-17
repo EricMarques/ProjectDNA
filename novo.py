@@ -220,6 +220,7 @@ seq3 = "CAACTTTGGCGTGCTGGGCCTGGACCTCTGGCAGTGAGCGGGCCA" \
 # print("SEQ3: {}".format(len(str.strip(seq3))))
 
 
+# 3
 def long_mottif(data):
 	substr = ''
 	if len(data) > 1 and len(data[0]) > 0:
@@ -230,14 +231,13 @@ def long_mottif(data):
 	return substr
 
 
-path = "Samples/"
+path = "Samples/CALR/Proteins/"
 dirs = os.listdir(path)
 
-seq3 = open(path + "ENST00000316448.fasta", "r")
+seq3 = open(path + "ProteinsAll.fasta", "r")
 
 content = seq3.read()
 
-# 3
 lines = []
 
 for data in content.split('>'):
@@ -245,9 +245,12 @@ for data in content.split('>'):
 	if line:
 		lines.append(line)
 
+tr = Seq(long_mottif(lines), IUPAC.unambiguous_dna)
 print(lines)
-print("Seq: {} \nTamanho: {} caracteres" .format(long_mottif(lines), len(long_mottif(lines))))
+print("Seq Comum: {} \nTamanho: {} caracteres" .format(long_mottif(lines), len(long_mottif(lines))))
+# print("Prot: {}\nTamanho: {} caracteres" .format(tr.translate(), len(tr.translate())))
 
+seq3.close()
 '''
 #2
 for seq_record in SeqIO.parse(seq3, 'fasta'):
