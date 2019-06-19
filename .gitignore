@@ -1,6 +1,7 @@
 /.idea/*
 /Samples/*
 /Alignments/*
+alinhamento.py
 test.py
 a.fasta
 b.fasta

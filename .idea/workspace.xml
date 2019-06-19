@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3f262082-8699-4390-a535-904e1f307847" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/align.py" beforeDir="false" afterPath="$PROJECT_DIR$/align.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/novo.py" beforeDir="false" afterPath="$PROJECT_DIR$/novo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +18,56 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ProjectDNA$app.coverage" NAME="app Coverage Results" MODIFIED="1548471981933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/novo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="236" column="31" selection-start-line="236" selection-start-column="31" selection-end-line="236" selection-end-column="31" />
+            <state>
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/translate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding>
+                <element signature="e#3#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alinhamento.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-945">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -32,10 +76,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cp.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/align.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -76,6 +138,11 @@
       <find>NFGVLGLDLWQ</find>
       <find>ACCAAGAAGGTTCATGTCATCTTCAACTACAAGGGCAAGAACGTGCTGATCAACAAGGACATCCGTTGCAAGGATGATGAGTTTACACACCTGTACACACTGATTGTGCGGCCAGACAACACCTATGAGGTGAAGATTGACAACAGCCAGGTGGAGTCCGGCTCCTTGGAAGACGATTGGGACTTCCTGCCACCCAAGAAGATAAAGGATCCTGATGCTTCAAAACCGGAAGACTGGGATGAGCGGGCCAAGATCGATGATCCCACAGACTCCAAGCCTGAGGACTGGGACAAGCCCGAGCATATCCCTGACCCTGATGCTAAGAAGCCCGAGGACTGGGATGAAGAGATGGACGGAGAGTGGGAACCCCCAGTGATTCAGAACCCTGAGTACAAGGGTGAGTGGAAGCCCCGGCAGATCGACAACCCAGATTACAAGGGCACTTGGATCCACCCAGAAATTGACAACCCCGAGTATTCTCCCGATCCCAGTATCTATGCCTATGATAACTTTGGCGTGCTGGGCCTGGACCTCTGGCAGGTCAAGTCTGGCACCATCTTTGACAACTTCCTCATCACCAACGATGAGGCATACGCTGAGGAGTTTGGCAACGAGACGTGGGGCGTAACAAAGGCAGCAGAGAAACAAATGAAGGACAAACAGGACGAGGAGCAGAGGCTTAAGGAGGAGGAAGAAGACAAGAAACGCAAAGAGGAGGAGGAGGCAGAGGACAAGGAGGATGATGAGGACAAAGATGAGGATGAGGAGGATGAGGAGGACAAGGAGGAAGATGAGGAGGAAGATGTCCCCGGCCAGGCCAAGGACGAGCTGTAG</find>
       <find>TKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDKQDEEQRLKEEEEDKKRKEEEEAEDKEDDEDKDEDEEDEEDKEEDEEEDVPGQAKDEL</find>
+      <find>MLLSVPLLLGLLGLAVAEPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKF</find>
+      <find>AGGATGATGAGTTTACACACCTGTACACACTGATTGTGCGGCCAGACA</find>
+      <find>PRR*</find>
+      <find>AAAGATAAA</find>
+      <find>KAAEKQMKDKQDEEQRLKEEEEDKKRKEEEEAEDKEDDEDKDEDEEDEEDKEEDEEEDVPGQAKDEL</find>
     </findStrings>
     <replaceStrings>
       <replace>path</replace>
@@ -88,57 +155,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Samples/NP_004334.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/3F8U_C.fasta" />
-        <option value="$PROJECT_DIR$/Samples/similaresP.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/NC_000019.10:12938680-12943913.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/NG_029662.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/NM_004343.3.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/P27797.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/M32294.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/AAA36582.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/M84739.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/AAA51916.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/AD000092.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/AAB51176.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/BC002500.2.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/AAH02500.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/BC007911.1.fasta" />
-        <option value="$PROJECT_DIR$/align.py" />
-        <option value="$PROJECT_DIR$/slice.py" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/AAH07911.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/BC020493.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/AAH20493.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/AY047586.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/AAL13126.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/BT007448.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/AAP36116.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/FJ224311.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/ACI46003.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/GQ900919.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/ADO22436.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/AB451408.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/BAG70222.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/CR457070.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/CAG33351.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/CH471106.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/EAW84331.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/CM000270.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/EAW84332.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/AX469610.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/CAD42607.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/CS288581.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/CAK18761.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/JA462404.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/CCD35250.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Nucleotides/JC990121.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/CALR/Proteins/CEO43494.1.fasta" />
-        <option value="$PROJECT_DIR$/Samples/similares" />
-        <option value="$PROJECT_DIR$/NucleotidesAll.fasta" />
-        <option value="$PROJECT_DIR$/ProteinsAll.fasta" />
-        <option value="$PROJECT_DIR$/cp.py" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_867310.2.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_862217.5.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001174133.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001167604.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001261131.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001248060.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_025001564.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_025145796.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001001253.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001001253.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_013126157.2.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_012981611.2.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_016935207.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_016790696.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_026716801.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_026572586.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001287610.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001274539.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_019964044.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_019819603.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_020155951.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_020011540.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_004748325.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_004748382.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_002921010.3.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_002921056.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_006918741.3.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_006918803.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_005881567.2.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_005881629.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_006768206.2.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_006768269.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_006161001.3.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_006161063.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_008855461.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_008853683.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001244122.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001231051.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_005900534.2.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_005900596.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_001504882.4.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_001504932.1.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_004343.3.fasta" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_004334.1.fasta" />
+        <option value="$PROJECT_DIR$/outro.py" />
+        <option value="$PROJECT_DIR$/Samples/CALR/CALRs.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/align.py" />
         <option value="$PROJECT_DIR$/novo.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/translate.py" />
       </list>
     </option>
   </component>
@@ -171,24 +238,6 @@
               <item name="ProjectDNA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="ProjectDNA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ProjectDNA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="CALR" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ProjectDNA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="CALR" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Nucleotides" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -198,20 +247,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Samples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Samples/CALR/CALRs/Results" />
       <recent name="$PROJECT_DIR$/Samples/CALR/Proteins" />
       <recent name="$PROJECT_DIR$/Samples/CALR/Nucleotides" />
       <recent name="$PROJECT_DIR$/Samples/CALR" />
       <recent name="$PROJECT_DIR$/Alignments" />
-      <recent name="$PROJECT_DIR$/Samples" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides" />
+      <recent name="$PROJECT_DIR$/Samples/CALR/CALRs/Proteins" />
+      <recent name="$PROJECT_DIR$/Samples/CALR/Nucleotides" />
       <recent name="$PROJECT_DIR$/Samples" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -228,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.novo">
+  <component name="RunManager" selected="Python.align">
     <configuration name="App" type="PythonConfigurationType" factoryName="Python">
       <module name="ProjectDNA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,28 +347,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="novnovo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProjectDNA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/novnovo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="novo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProjectDNA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,6 +361,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/novo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="outro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjectDNA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,17 +417,17 @@
       <item itemvalue="Python.App" />
       <item itemvalue="Python.novo" />
       <item itemvalue="Python.align" />
-      <item itemvalue="Python.novnovo" />
       <item itemvalue="Python.slice" />
       <item itemvalue="Python.cp" />
+      <item itemvalue="Python.outro" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.align" />
+        <item itemvalue="Python.outro" />
         <item itemvalue="Python.novo" />
         <item itemvalue="Python.cp" />
-        <item itemvalue="Python.align" />
         <item itemvalue="Python.slice" />
-        <item itemvalue="Python.novnovo" />
       </list>
     </recent_temporary>
   </component>
@@ -407,12 +459,20 @@
       <workItem from="1560601905713" duration="14483000" />
       <workItem from="1560627901800" duration="516000" />
       <workItem from="1560628450151" duration="8224000" />
-      <workItem from="1560722704154" duration="14503000" />
+      <workItem from="1560722704154" duration="14698000" />
+      <workItem from="1560773732362" duration="6920000" />
+      <workItem from="1560787649230" duration="697000" />
+      <workItem from="1560798200903" duration="4365000" />
+      <workItem from="1560805585337" duration="1166000" />
+      <workItem from="1560807225167" duration="4134000" />
+      <workItem from="1560814502705" duration="3100000" />
+      <workItem from="1560865401843" duration="625000" />
+      <workItem from="1560952692487" duration="3844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111210000" />
+    <option name="totallyTimeSpent" value="136256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,13 +485,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="748" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20454545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23106061" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32852563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32852563" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.32852563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.3253205" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848485" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,13 +502,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32852563" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151515" side_tool="true" weight="0.39903846" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3221154" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32051283" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32852563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32954547" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,460 +520,372 @@
       <path value="$PROJECT_DIR$/ProjectDNA" />
     </ignored-roots>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>260</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>261</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>265</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>264</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>268</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>266</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>271</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>270</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>272</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>274</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>275</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>263</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>269</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>262</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/novo.py</url>
-          <line>267</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjectDNA$menu.coverage" NAME="menu Coverage Results" MODIFIED="1560465407930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectDNA$fileMap.coverage" NAME="fileMap Coverage Results" MODIFIED="1560540872256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectDNA$console_menu.coverage" NAME="console_menu Coverage Results" MODIFIED="1560442167790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.7/dist-packages/consolemenu" />
-    <SUITE FILE_PATH="coverage/ProjectDNA$buscaNCBI.coverage" NAME="buscaNCBI Coverage Results" MODIFIED="1560602757603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectDNA$outro.coverage" NAME="outro Coverage Results" MODIFIED="1560954019664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectDNA$novnovo.coverage" NAME="novnovo Coverage Results" MODIFIED="1560617047017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectDNA$novo.coverage" NAME="novo Coverage Results" MODIFIED="1560800178103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectDNA$alinhamento.coverage" NAME="alinhamento Coverage Results" MODIFIED="1560542457309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectDNA$buscaNCBI.coverage" NAME="buscaNCBI Coverage Results" MODIFIED="1560602757603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectDNA$cp.coverage" NAME="cp Coverage Results" MODIFIED="1560738735717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectDNA$codonTable.coverage" NAME="codonTable Coverage Results" MODIFIED="1559094640067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectDNA$slice.coverage" NAME="slice Coverage Results" MODIFIED="1560618024234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ProjectDNA$novo.coverage" NAME="novo Coverage Results" MODIFIED="1560738900109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ProjectDNA$alinhamento.coverage" NAME="alinhamento Coverage Results" MODIFIED="1560542457309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectDNA$App.coverage" NAME="App Coverage Results" MODIFIED="1560542371943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ProjectDNA$align.coverage" NAME="align Coverage Results" MODIFIED="1560728399707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectDNA$align.coverage" NAME="align Coverage Results" MODIFIED="1560956419281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/NC_000019.10.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001261131.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="54" lean-forward="true" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+        <state relative-caret-position="405">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/NP_004334.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001248060.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/NG_029662.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_025001564.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+        <state relative-caret-position="90">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/NM_004343.3.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_025145796.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="1" selection-end-column="12" />
+        <state relative-caret-position="315">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/M32294.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001001253.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001001253.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_013126157.2.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_012981611.2.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_016935207.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_016790696.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_026716801.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_026572586.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001287610.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001274539.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_019964044.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_019819603.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_020155951.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_020011540.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_004748325.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_004748382.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_002921010.3.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_002921056.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_006918741.3.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_006918803.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_005881567.2.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_005881629.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_006768206.2.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_006768269.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_006161063.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_006161001.3.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_008855461.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_008853683.1.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_001244122.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/AAA36582.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_001231051.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/AAA51916.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_005900534.2.fasta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_005900596.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/M84739.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/XM_001504882.4.fasta">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="1" selection-end-column="9" />
+        <state relative-caret-position="420">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/AAB51176.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/AAH02500.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/BC002500.2.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/BC007911.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#25#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/AAH07911.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/BC020493.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/AAH20493.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/AY047586.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/AAL13126.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/BT007448.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/AAP36116.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/FJ224311.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/ACI46003.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/GQ900919.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/ADO22436.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/BAG70222.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/CR457070.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/CAG33351.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/CH471106.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/EAW84331.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/CM000270.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/EAW84332.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/CAD42607.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/AX469610.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/CS288581.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/CAK18761.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/JA462404.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/CCD35250.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/XP_001504932.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/JC990121.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Results/homoXmus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Results/musXhomo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Results/homoXrattus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Results/rattusXhomo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Nucleotides/NM_004343.3.fasta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/CEO43494.1.fasta">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs/Proteins/NP_004334.1.fasta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/similares">
+    <entry file="file://$PROJECT_DIR$/Samples/CALR/CALRs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="79" />
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NucleotidesAll.txt">
+    <entry file="file://$PROJECT_DIR$/alinhamento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="-945">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/align.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#25#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/AB451408.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/AD000092.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Nucleotides/NucleotidesAll.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2674">
-          <caret line="683" column="64" lean-forward="true" selection-start-line="683" selection-start-column="64" selection-end-line="683" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/ProteinsAll.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Samples/CALR/Proteins/P27797.1.fasta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProteinsAll.fasta">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/novo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="236" column="31" selection-start-line="236" selection-start-column="31" selection-end-line="236" selection-end-column="31" />
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#3#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
