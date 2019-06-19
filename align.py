@@ -5,13 +5,11 @@ from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 from Bio.Blast.Applications import *
 
-# path = "Samples/"
 pathI = "./Samples/CALR/CALRs/Proteins/"
 pathO = "./Samples/CALR/CALRs/Results/"
 dirs = os.listdir(pathI)
 
 # BLAST = Biopython
-
 query = input("Arquivo com sequência para alinhamento: ")
 subject = input("Arquivo com sequência original: ")  # arquivo com o qual será alinhada a 'query'
 arq_out = input("Nome arquivo saída: ")
