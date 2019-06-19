@@ -1,2 +1,2 @@
 Bio
-biopython=1.73
+biopython

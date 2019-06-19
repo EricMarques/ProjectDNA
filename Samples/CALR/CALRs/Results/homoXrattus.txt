@@ -1,0 +1,91 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input:
+./Samples/CALR/CALRs/Proteins/NP_071794.1.fasta).
+           1 sequences; 416 total letters
+
+
+
+Query= NP_004334.1 calreticulin precursor [Homo sapiens]
+
+Length=417
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NP_071794.1 calreticulin precursor [Rattus norvegicus]              696     0.0  
+
+
+> NP_071794.1 calreticulin precursor [Rattus norvegicus]
+Length=416
+
+ Score = 696 bits (1796),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 346/362 (96%), Positives = 354/362 (98%), Gaps = 0/362 (0%)
+
+Query  1    MLLSVPLLLGLLGLAVAEPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDE  60
+            MLLSVPLLLGLLGLA A+PA+YFKEQFLDGD WT+RW+ESKHKSDFGKFVLSSGKFYGD+
+Sbjct  1    MLLSVPLLLGLLGLAAADPAIYFKEQFLDGDAWTNRWVESKHKSDFGKFVLSSGKFYGDQ  60
+
+Query  61   EKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFTVKHEQNIDCGGGYVKLFPNSLDQT  120
+            EKDKGLQTSQDARFYALSA FEPFSNKGQTLVVQFTVKHEQNIDCGGGYVKLFP  LDQ 
+Sbjct  61   EKDKGLQTSQDARFYALSARFEPFSNKGQTLVVQFTVKHEQNIDCGGGYVKLFPGGLDQK  120
+
+Query  121  DMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDN  180
+            DMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDN
+Sbjct  121  DMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDN  180
+
+Query  181  TYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPE  240
+            TYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDA+KPEDWDERAKIDDPTDSKPEDWDKPE
+Sbjct  181  TYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDAAKPEDWDERAKIDDPTDSKPEDWDKPE  240
+
+Query  241  HIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYS  300
+            HIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYS
+Sbjct  241  HIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYS  300
+
+Query  301  PDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDK  360
+            PD +IYAYD+F VLGLDLWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDK
+Sbjct  301  PDANIYAYDSFAVLGLDLWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDK  360
+
+Query  361  QD  362
+            QD
+Sbjct  361  QD  362
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.135    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 148610
+
+
+  Database: User specified sequence set (Input:
+./Samples/CALR/CALRs/Proteins/NP_071794.1.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 416
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

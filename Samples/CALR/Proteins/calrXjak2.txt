@@ -1,0 +1,91 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input:
+Samples/CALR/Proteins/NP_001309123.1.fasta).
+           1 sequences; 1,132 total letters
+
+
+
+Query= NP_004334.1 calreticulin precursor [Homo sapiens]
+
+Length=417
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NP_001309123.1 tyrosine-protein kinase JAK2 isoform a [Homo sap...  17.3    2.6  
+
+
+> NP_001309123.1 tyrosine-protein kinase JAK2 isoform a [Homo sapiens]
+Length=1132
+
+ Score = 17.3 bits (33),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 19/37 (51%), Gaps = 6/37 (16%)
+
+Query  289  WIHPE-IDNPEYSPDPSIYAYDNFGVLGLDLWQVKSG  324
+            W+ PE I+NP+        A D +   G  LW++ SG
+Sbjct  718  WVPPECIENPKNLN----LATDKWS-FGTTLWEICSG  749
+
+
+ Score = 16.5 bits (31),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 6/21 (29%), Positives = 10/21 (48%), Gaps = 0/21 (0%)
+
+Query  264  PVIQNPEYKGEWKPRQIDNPD  284
+            P +Q P +  +    +I N D
+Sbjct  524  PTLQRPTHMNQMVFHKIRNED  544
+
+
+ Score = 16.2 bits (30),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 6/11 (55%), Positives = 8/11 (73%), Gaps = 1/11 (9%)
+
+Query  261  WEPP-VIQNPE  270
+            W PP  I+NP+
+Sbjct  718  WVPPECIENPK  728
+
+
+ Score = 16.2 bits (30),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 6/27 (22%), Positives = 13/27 (48%), Gaps = 1/27 (4%)
+
+Query  342  FGNETWGVTKAAEKQMKDKQDEEQRLK  368
+            FG   W +    +K +    D +++L+
+Sbjct  739  FGTTLWEICSGGDKPL-SALDSQRKLQ  764
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.135    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 413154
+
+
+  Database: User specified sequence set (Input:
+Samples/CALR/Proteins/NP_001309123.1.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 1,132
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

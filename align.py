@@ -50,13 +50,6 @@ print(result.read())
 result.close()
 result2.close()
 
-# BLAST = linha de comando
-# MODELO # os.system("blastp -query a.fasta -subject b.fasta -outfmt 6 > resultado.txt")  # alinhamento de proteínas
-# MODELO # os.system("blastn -query a.fasta -subject b.fasta > test.txt")  # alinhamento de nucleotídeos
-
-# os.system("blastn -query " + query + " -subject " + subject + " > resultado.txt")
-# os.system("blastn -query " + query + " -subject " + subject + " -outfmt 6 > resumo.txt")
-
 for seq_record in SeqIO.parse(queryT, 'fasta'):
     seqDna = seq_record.seq
 
@@ -64,24 +57,8 @@ for seq_record in SeqIO.parse(queryT, 'fasta'):
 gene = Seq(str(seqDna), IUPAC.unambiguous_dna)
 
 print(len(gene))
-# print(len(gene.translate()))
 
 linhas = open(arq_outT).readlines()
 
 for linha in linhas:
     print(linha)
-
-# import menu
-# menu.choice
-
-
-'''
-    Forçar a mutação da sequencia
-    "gerar" novamente aminoácidos
-    Verificar as proteínas gerada ,se permaneceu a mesma
-    comparar com "original"
-    
-    
-    Identifica algumas proteinas pela sequencia de bases
-    nas diferencas, tenta identificar possiveis mutações que fariam a sequencia deixar de ser uma proteina e virar outra
-'''
