@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 import os
 from Bio import SeqIO
 from Bio.Seq import Seq
