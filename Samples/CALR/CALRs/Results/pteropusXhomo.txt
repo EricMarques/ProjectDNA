@@ -1,0 +1,87 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input:
+./Samples/CALR/CALRs/Proteins/NP_004334.1.fasta).
+           1 sequences; 417 total letters
+
+
+
+Query= XP_006918803.1 calreticulin [Pteropus alecto]
+
+Length=417
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NP_004334.1 calreticulin precursor [Homo sapiens]                   687     0.0  
+
+
+> NP_004334.1 calreticulin precursor [Homo sapiens]
+Length=417
+
+ Score = 687 bits (1773),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 331/345 (96%), Positives = 338/345 (98%), Gaps = 0/345 (0%)
+
+Query  18   EPVVYFKEQFLDGDGWTNRWIESKHKSDFGKFVLSAGKFYGDLDKDKGLQTSQDARFYAL  77
+            EP VYFKEQFLDGDGWT+RWIESKHKSDFGKFVLS+GKFYGD +KDKGLQTSQDARFYAL
+Sbjct  18   EPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYAL  77
+
+Query  78   SARFEPFSNKDQTLVVQFTVKHEQNIDCGGGYVKLFPDGLDQTDMHGDSEYNIMFGPDIC  137
+            SA FEPFSNK QTLVVQFTVKHEQNIDCGGGYVKLFP+ LDQTDMHGDSEYNIMFGPDIC
+Sbjct  78   SASFEPFSNKGQTLVVQFTVKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDIC  137
+
+Query  138  GPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDNTYEVKIDNSQVESGSLE  197
+            GPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDNTYEVKIDNSQVESGSLE
+Sbjct  138  GPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDNTYEVKIDNSQVESGSLE  197
+
+Query  198  DDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEM  257
+            DDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEM
+Sbjct  198  DDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEM  257
+
+Query  258  DGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEVDNPEYSPDSNIYAYENFAVLGLD  317
+            DGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPE+DNPEYSPD +IYAY+NF VLGLD
+Sbjct  258  DGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLD  317
+
+Query  318  LWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDKQD  362
+            LWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDKQD
+Sbjct  318  LWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDKQD  362
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.135    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 148996
+
+
+  Database: User specified sequence set (Input:
+./Samples/CALR/CALRs/Proteins/NP_004334.1.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 417
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
