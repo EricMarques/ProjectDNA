@@ -11,7 +11,7 @@ dirs = os.listdir(pathI)
 
 # BLAST = Biopython
 query = input("Arquivo com sequência para alinhamento: ")
-subject = input("Arquivo com sequência original: ")  # arquivo com o qual será alinhada a 'query'
+subject = input("Arquivo com sequência original: ")
 arq_out = input("Nome arquivo saída: ")
 
 arq_file_q = pathI + query

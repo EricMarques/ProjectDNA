@@ -18,7 +18,7 @@ def buscaNcbi(query):
     # Buscar nucleotídeos = blastn
     try:
         print("Buscando arquivo...")
-        blast_result = NCBIWWW.qblast("blastn", "nr", query)
+        blast_result = NCBIWWW.qblast("blastp", "nr", query)
         blast_out = open(arq_file + ".xml", "w")
         blast_out.write(blast_result.read())
         blast_out.close()
@@ -36,6 +36,3 @@ if os.path.exists(queryT):
 
 else:
     buscaNcbi(query)
-
-import menu
-menu.choice

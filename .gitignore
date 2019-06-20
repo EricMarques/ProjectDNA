@@ -1,5 +1,9 @@
 /.idea/*
 /Samples/Outros/*
+/Samples/CALR/Nucleotides
+/Samples/CALR/Proteins
+/Samples/CALR/*.txt
+/Samples/CALR/*.fasta
 /Alignments/*
 alinhamento.py
 test.py

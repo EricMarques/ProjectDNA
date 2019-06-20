@@ -2,6 +2,7 @@ import os
 
 from Bio import SeqIO
 
+
 path = "./Samples/CALR/CALRs/Nucleotides/"
 dirs = os.listdir(path)
 
