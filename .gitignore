@@ -11,3 +11,7 @@ a.fasta
 b.fasta
 Exceptions.py
 cp.py
+codonTable.py
+fileMap.py
+menu.py
+slice.py
