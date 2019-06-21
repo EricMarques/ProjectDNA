@@ -6,11 +6,10 @@
 Funções constantes neste Projeto:<br>
 * searchNCBI.py = importação de sequências de aminoácidos ou proteínas diretamentedo genbank;
     *  Os 'IDs' utilizados para a busca devem ser previamente pesquisados diretamente no site do GenBank
+    *  ###### OBS: A busca por sequências de aminoácidos ou proteínas no repositório, depende diretamente da conexão com a internet.
 * align.py = alinhamento de aminoácidos e proteínas;
 * translate.py = conversão de arquivos contendo sequências de DNA em aminoácidos; 
 * mottif.py = verificar sequências em comum dentro de um arquivo;
-
-###### OBS: A busca por sequências de aminoácidos ou proteínas no repositório, depende diretamente da conexão com a internet.
 
 Bases de nucleotídeos e proteínas referente ao gene Calreticulina(CALR), utilizadas de diferentes espécies utilizadas para a pesuisa deste projeto:
 
