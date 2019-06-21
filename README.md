@@ -3,15 +3,12 @@
 #### Os script's aqui apresentados podem ser executados individualmente.
 
 #### Projeto de verificação de sequência de DNA.
-Funções para:<br>
- * searchNCBI.py = importação de sequências de aminoácidos ou proteínas diretamentedo genbank;
-  * Os 'IDs' utilizados para a busca devem ser previamente pesquisados diretamente no site do GenBank.
-  
- * align.py = alinhamento de aminoácidos e proteínas;
- 
- * translate.py = conversão de arquivos contendo sequências de DNA em aminoácidos;
- 
- * mottif.py = verificar sequências em comum dentro de um arquivo;
+Funções constantes neste Projeto:<br>
+* searchNCBI.py = importação de sequências de aminoácidos ou proteínas diretamentedo genbank;
+    *  Os 'IDs' utilizados para a busca devem ser previamente pesquisados diretamente no site do GenBank
+* align.py = alinhamento de aminoácidos e proteínas;
+* translate.py = conversão de arquivos contendo sequências de DNA em aminoácidos; 
+* mottif.py = verificar sequências em comum dentro de um arquivo;
 
 ###### OBS: A busca por sequências de aminoácidos ou proteínas no repositório, depende diretamente da conexão com a internet.
 
@@ -43,6 +40,8 @@ Bases de nucleotídeos e proteínas utilizadas de diferentes espécies utilizada
  + Cricetulus griseus     = (NM_001244122.1) - (NP_001231051.1)
  + Bos mutus              = (XM_005900534.2) - (XP_005900596.1)
  + Equus caballus         = (XM_001504882.4) - (XP_001504932.1)
+ 
+ Os arquivos refernte às amostras encontram-se anexados ao repositório.
  
  #### Estrutura de diretórios do Projeto:
   * ProjectDNA
