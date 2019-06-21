@@ -14,7 +14,7 @@ Funções constantes neste Projeto:<br>
 
 Bases de nucleotídeos e proteínas utilizadas de diferentes espécies utilizadas para a pesuisa deste projeto:
    Calreticulina(CALR)
- + Species                   Nucleotides        Proteins
+ + Species\t                 Nucleotides        Proteins
  + Homo Sapiens           = (NM_004343.3)    - (NP_004334.1)
  + Mus musculus           = (NM_007591.3)    - (NP_031617.1)
  + Rattus norvegicus      = (NM_022399.2)    - (NP_071794.1)
