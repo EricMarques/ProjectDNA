@@ -1,12 +1,17 @@
 # ProjectDNA
 
-#### Projeto de verificação de sequência de DNA.
+#### Os script's aqui apresentados podem ser executados individualmente.
 
+#### Projeto de verificação de sequência de DNA.
 Funções para:<br>
- + importação de sequências de aminoácidos ou proteínas diretamentedo genbank;
- + alinhamento de aminoácidos e proteínas;
- + conversão de arquivos;
- + verificar sequências em comum dentro de um arquivo;
+ + searchNCBI.py = importação de sequências de aminoácidos ou proteínas diretamentedo genbank;
+  * Os 'IDs' utilizados para a busca devem ser previamente pesquisados diretamente no site do GenBank.
+  
+ + align.py = alinhamento de aminoácidos e proteínas;
+ 
+ + translate.py = conversão de arquivos contendo sequências de DNA em aminoácidos;
+ 
+ + mottif.py = verificar sequências em comum dentro de um arquivo;
 
 ###### OBS: A busca por sequências de aminoácidos ou proteínas no repositório, depende diretamente da conexão com a internet.
 
